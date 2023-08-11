@@ -1,0 +1,97 @@
+.menu-header {
+    width: 60%;
+}
+
+.menu-header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.26em;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+
+.menu-header {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(8 3 36 / 94%);
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.botao {
+    background-color: #22047fe0;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.3em !important;
+    border: solid 1px #ffffffbd;
+}
+
+.menu-barras{
+    display: initial;
+}
+
+.conteudo-sobre {
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-sobre {
+    width: 80%;
+}
+
+.texto-sobre {
+    width: 80%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: space-between;
+}
+
+.conteudo-info {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudo-endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 660px;
+    justify-content: space-between;
+}
+
+.conteudo-endereco h2 {
+    align-self: flex-start;
+}
+
+.texto-endereco p {
+    width: 100%;
+}
+
+.mapa {
+    position: unset;
+    width: 400px;
+}
+
+.fa-bars:before, .fa-navicon:before {
+    color: white;
+    content: "\f0c9";
+    font-size: 30px;
+    margin-right: 18px;
+}
+
+.fa-close:before, .fa-multiply:before, .fa-remove:before, .fa-times:before, .fa-xmark:before {
+    content: "\f00d";
+    font-size: 30px;
+    margin-right: 18px;
+    color: white;
+}
